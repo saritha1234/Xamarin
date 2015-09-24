@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectTypeGuids>{EFBA0AD7-5A72-4C68-AF49-83D382785DCF};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <ProjectGuid>{58452D9A-F914-4E55-9281-846D72778473}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>WeatherApp</RootNamespace>
+    <AndroidApplication>True</AndroidApplication>
+    <AndroidResgenFile>Resources\Resource.designer.cs</AndroidResgenFile>
+    <AndroidResgenClass>Resource</AndroidResgenClass>
+    <MonoAndroidResourcePrefix>Resources</MonoAndroidResourcePrefix>
+    <MonoAndroidAssetsPrefix>Assets</MonoAndroidAssetsPrefix>
+    <AndroidUseLatestPlatformSdk>True</AndroidUseLatestPlatformSdk>
+    <AssemblyName>WeatherApp</AssemblyName>
+    <AndroidManifest>Properties\AndroidManifest.xml</AndroidManifest>
+    <TargetFrameworkVersion>v4.4</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <AndroidLinkMode>None</AndroidLinkMode>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <AndroidUseSharedRuntime>false</AndroidUseSharedRuntime>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="Mono.Android" />
+    <Reference Include="RestSharp">
+      <HintPath>..\packages\RestSharp.105.2.3\lib\MonoAndroid10\RestSharp.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="MainActivity.cs" />
+    <Compile Include="Resources\Resource.designer.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="DataAdapter.cs" />
+    <Compile Include="RestHandler.cs" />
+    <Compile Include="Response.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AboutResources.txt" />
+    <None Include="Assets\AboutAssets.txt" />
+    <None Include="Properties\AndroidManifest.xml" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\Main.axml" />
+    <AndroidResource Include="Resources\values\Strings.xml" />
+    <AndroidResource Include="Resources\drawable-hdpi\Icon.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\Icon.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\Icon.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\Icon.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\Icon.png" />
+    <AndroidResource Include="Resources\layout\CustomRow.axml" />
+    <AndroidResource Include="Resources\drawable-hdpi\AMShowersWind.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\bluesun.jpg" />
+    <AndroidResource Include="Resources\drawable-hdpi\ClearSky.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\Cloudy.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\Cold.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\delete.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\Drizzle.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\edit.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\Fog.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\Hail.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\Haze.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\Hot.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\Hurricane.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\LightRain.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\LightRainShower.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\logo.gif" />
+    <AndroidResource Include="Resources\drawable-hdpi\MostlyCloudy.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\MostlyCloudyWind.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\MostlyCloudyWindy.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\MostlySunny.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\MostlySunnyWind.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\NAImage.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\PartlyCloudy.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\PartlyCloudyWind.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\PMLightRainWind.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\PMShowers.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\Rain.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\RainWind.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\ShowersLate.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\ShowersVicinity.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\Sleet.jpg" />
+    <AndroidResource Include="Resources\drawable-hdpi\Snow.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\sunicon.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\Sunny.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\ThunderShowers.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\Thunderstorms.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\weather.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\weathericon.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\Windy.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\Tornado.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
+  <ItemGroup>
+    <XamarinComponentReference Include="restsharp">
+      <Version>105.2.3</Version>
+      <Visible>False</Visible>
+    </XamarinComponentReference>
+  </ItemGroup>
+</Project>

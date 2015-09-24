@@ -1,0 +1,8 @@
+\\telmar\users\SP040\My Documents\Projects\WeatherApp\WeatherApp\obj\Debug\assemblies\WeatherApp.dll
+\\telmar\users\SP040\My Documents\Projects\WeatherApp\WeatherApp\obj\Debug\assemblies\Mono.Android.dll
+\\telmar\users\SP040\My Documents\Projects\WeatherApp\WeatherApp\obj\Debug\assemblies\mscorlib.dll
+\\telmar\users\SP040\My Documents\Projects\WeatherApp\WeatherApp\obj\Debug\assemblies\RestSharp.dll
+\\telmar\users\SP040\My Documents\Projects\WeatherApp\WeatherApp\obj\Debug\assemblies\System.Core.dll
+\\telmar\users\SP040\My Documents\Projects\WeatherApp\WeatherApp\obj\Debug\assemblies\System.dll
+\\telmar\users\SP040\My Documents\Projects\WeatherApp\WeatherApp\obj\Debug\assemblies\System.Xml.dll
+\\telmar\users\SP040\My Documents\Projects\WeatherApp\WeatherApp\obj\Debug\assemblies\System.Xml.Linq.dll

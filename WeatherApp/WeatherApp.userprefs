@@ -1,0 +1,15 @@
+﻿<Properties StartupItem="WeatherApp\WeatherApp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.SAVD" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="WeatherApp\DataAdapter.cs">
+    <Files>
+      <File FileName="WeatherApp\MainActivity.cs" Line="25" Column="25" />
+      <File FileName="WeatherApp\Response.cs" Line="1" Column="1" />
+      <File FileName="WeatherApp\DataAdapter.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.WeatherApp MonoForAntroid.PreferredDevice="Nexus 4" />
+</Properties>
